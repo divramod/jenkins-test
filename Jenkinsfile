@@ -3,7 +3,18 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'sleep 20 && echo && echo "hello"'
+                 bash '''#!/bin/bash
+                        sleep 10
+                        echo "hello world"
+                 '''
+            }
+        }
+        stage('Setting the variables values') {
+            steps {
+                 bash '''#!/bin/bash
+                        sleep 10
+                        echo "hello world"
+                 '''
             }
         }
     }
