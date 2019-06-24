@@ -1,9 +1,9 @@
 pipeline {
-    agent { docker { image 'golang' } }
+    agent { docker { image 'php' } }
     stages {
         stage('build') {
             steps {
-                sh 'go version'
+                sh 'php --version'
             }
         }
     }
