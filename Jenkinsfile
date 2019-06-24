@@ -5,7 +5,7 @@ pipeline {
             steps {
                  bash '''#!/bin/bash
                         sleep 10
-                        echo "hello world"
+                        echo "cla 0"
                  '''
             }
         }
@@ -13,7 +13,7 @@ pipeline {
             steps {
                  bash '''#!/bin/bash
                         sleep 10
-                        echo "hello world"
+                        echo "bla blup 1"
                  '''
             }
         }
