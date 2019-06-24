@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'go version'
+                sh 'sleep 20 && echo "hello"'
             }
         }
     }
